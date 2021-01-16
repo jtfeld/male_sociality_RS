@@ -10,14 +10,14 @@ Code can be found in the "R" folder, data in the "data" folder
 
 Lead Author:
 
-Joseph T. Feldblum (Department of Anthropology, and Society of Fellows, University of Michigan. Department of Evolutionary Anthropology, Duke University | feldblum@umich.edu)
+**Joseph T. Feldblum** (Department of Anthropology, and Society of Fellows, University of Michigan; & Department of Evolutionary Anthropology, Duke University | feldblum@umich.edu)
 
 Associate or co-investigators: 
 
-Christopher Krupenye (Department of Psychological & Brain Sciences, Johns Hopkins University)\ 
-Joel Bray (School of Human Evolution and Social Change, and Institute of Human Origins, Arizona State University)\ 
-Anne E. Pusey (3Department of Evolutionary Anthropology, Duke University)\ 
-Ian C. Gilby (School of Human Evolution and Social Change, and Institute of Human Origins, Arizona State University) 
+**Christopher Krupenye** (Department of Psychological & Brain Sciences, Johns Hopkins University)\
+**Joel Bray** (School of Human Evolution and Social Change, and Institute of Human Origins, Arizona State University)\
+**Anne E. Pusey** (3Department of Evolutionary Anthropology, Duke University)\
+**Ian C. Gilby** (School of Human Evolution and Social Change, and Institute of Human Origins, Arizona State University) 
 
 Contact person for questions:
 
