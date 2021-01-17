@@ -16,7 +16,7 @@ Additional authors:
 
 **Christopher Krupenye** (Department of Psychological & Brain Sciences, Johns Hopkins University)\
 **Joel Bray** (School of Human Evolution and Social Change, and Institute of Human Origins, Arizona State University)\
-**Anne E. Pusey** (3Department of Evolutionary Anthropology, Duke University)\
+**Anne E. Pusey** (Department of Evolutionary Anthropology, Duke University)\
 **Ian C. Gilby** (School of Human Evolution and Social Change, and Institute of Human Origins, Arizona State University) 
 
 Contact person for questions: Joseph T. Feldblum (feldblum@umich.edu)
