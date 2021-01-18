@@ -10,7 +10,7 @@ Code can be found in the "R" folder, data in the "data" folder
 
 Lead Author:
 
-**Joseph T. Feldblum** (Department of Anthropology, and Society of Fellows, University of Michigan; & Department of Evolutionary Anthropology, Duke University | feldblum@umich.edu)
+**Joseph T. Feldblum** (Department of Anthropology and Society of Fellows, University of Michigan; Department of Evolutionary Anthropology, Duke University | feldblum@umich.edu)
 
 Additional authors: 
 
