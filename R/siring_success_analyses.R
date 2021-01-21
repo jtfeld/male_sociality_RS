@@ -17,10 +17,13 @@ m0 = glmer(sire ~
 
 summary(m0)
 
-all_mods = dredge(global.model = m0, trace = 2) # , subset = !(time_obs_m & time_obs_atleast1_male)
+# find best set of non-social terms for predicting siring success:
+all_mods = dredge(global.model = m0, trace = 2) 
 
+# apply nesting rule:
 all_mods = subset(all_mods, !nested(.))
 
+# get models within 6 AICc points of the best model:
 best_mods = get.models(all_mods, subset = delta < 6)
 
 model.sel(best_mods) 
@@ -90,6 +93,7 @@ AICc(m0,
 
 # --------------------------- gregariousness check ---------------
 
+# update null model:
 m0 = glmer(sire ~ 
              age +
              id1_elo +
@@ -107,8 +111,8 @@ m_0 = glmer(sire ~
               age +
               id1_elo +
               qgr +
-              (1|id), family = binomial, #  + grm_given_rate + grm_rec_rate
-            data = no_alphas, na.action = na.fail) #, REML = F   nAGQ = 0
+              (1|id), family = binomial, 
+            data = no_alphas, na.action = na.fail) 
 
 summary(m_0)
 

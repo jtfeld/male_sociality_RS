@@ -13,8 +13,6 @@ load(file = "./data/coals_AME_Dec20.RData")
 
 # ------------------ run models ----------------------------------
 
-# change the following to Ycoal2, Xdyad2 (remove subsetting), Xnode2
-
 # this will take a while:
 
 fit_coals1 = ame_rep(Y = Ycoal2, Xdyad = Xdyad2, Xrow = Xnode2,
@@ -82,8 +80,6 @@ theme_jtf = function (base_size = 11, base_family = "") {
 }
 
 
-pdf(file = "../plots/posterior_predicts_coals.pdf", width = 6, height = 5)
-
 theme_set(theme_jtf())
 
 color_scheme_set("gray")
@@ -94,6 +90,5 @@ mcmc_areas(coal_post,
   geom_vline(xintercept = 0, color = "gray30", lty = 2) +
   scale_y_discrete(labels = c("Age difference", "Time together", 
                               "Grooming rate", "Association tie strength")) 
-# ggtitle("Posterior distributions",
-#         "with medians and 95% intervals") 
-dev.off()
+ggtitle("Posterior distributions",
+        "with medians and 95% intervals")
