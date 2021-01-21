@@ -1,6 +1,6 @@
 # Male Sociality and Reproductive Success
 
-Last updated: "`r format(Sys.time(), '%d %B, %Y')`"
+Last updated: Jan 21, 2021
 
 Code and data for: 
 
