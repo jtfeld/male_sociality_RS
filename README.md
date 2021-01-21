@@ -1,5 +1,7 @@
 # Male Sociality and Reproductive Success
 
+Last updated: "`r format(Sys.time(), '%d %B, %Y')`"
+
 Code and data for: 
 
 ### Social bonds provide multiple pathways to reproductive success in wild male chimpanzees
