@@ -1,6 +1,6 @@
 # Male Sociality and Reproductive Success
 
-Last updated: Jan 21, 2021
+Last updated: Jun 10, 2021
 
 Code and data for: 
 
@@ -72,6 +72,13 @@ And produces results depicted in: Figure S3
 Uses the datafile: yearly_dai_vs_coal_betw_min_8_coal_dyads.rds
 
 And produces results depicted in: Figure S4
+
+\
+**supplementary_analyses.R**
+
+Uses the datafiles: no_alpha_analysis_by_sire.rds, full_analysis_by_sire.rds, and no_beta_analysis_by_sire.rds
+
+And produces results depicted in: Tables S1, S2, S3, S4, Figure S7
 
 
 \
