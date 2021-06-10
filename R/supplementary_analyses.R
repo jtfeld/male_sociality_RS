@@ -1,7 +1,5 @@
 
-# still gotta do: bonds w beta male, 
-# also change no_alpha_analysis_by_sire2.rds so there's only
-# one no_alpha_analysis_by_sire file (2 is the good one)
+# ================= TOP ==========================================
 
 # ------------- using raw joint arrivals -------------------------
 
@@ -10,7 +8,7 @@ library(lmerTest) # for modeling
 library(MuMIn) # for AICc function
 library(sjPlot) # for quick plots of model predictions
 
-full_data = readRDS(file = "./data/full_analysis_by_sire2.rds") # CHANGE
+full_data = readRDS(file = "./data/full_analysis_by_sire.rds") 
 
 # null model:
 m0 = glmer(sire ~ 
@@ -51,7 +49,7 @@ library(MuMIn) # for AICc function
 library(sjPlot) # for quick plots of model predictions
 
 # load no_alphas dataset:
-no_alphas = readRDS(file = "./data/no_alpha_analysis_by_sire2.rds") # CHANGE
+no_alphas = readRDS(file = "./data/no_alpha_analysis_by_sire.rds") 
 
 # null model:
 m_0 = glmer(sire ~ 
