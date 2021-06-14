@@ -176,7 +176,7 @@ summary(fit_path, fit.measures = TRUE, standardized = T, rsquare = T)
 # plot: -----------------------
 
 # initial path plot:
-sp = semPaths(fit, 'std', layout = 'tree', 
+sp = semPaths(fit_path, 'std', layout = 'tree', 
               edge.label.cex = 1.5, sizeMan = 17, 
               sizeMan2 = 12, curvePivot = TRUE,
               label.cex = 0.75, label.prop = 1,
@@ -194,7 +194,7 @@ lo[2,2] = 0
 dput(sp$Arguments$labels)
 
 # updated plot:
-semPaths(fit, 'std', layout = lo, 
+semPaths(fit_path, 'std', layout = lo, 
          edge.label.cex = 1.5, sizeMan = 17, 
          sizeMan2 = 12, curvePivot = TRUE,
          label.cex = 0.75, label.prop = 1,
