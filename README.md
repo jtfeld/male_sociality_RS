@@ -1,6 +1,8 @@
 # Male Sociality and Reproductive Success
 
-Last updated: Jun 14, 2021
+[![DOI](https://zenodo.org/badge/330023784.svg)](https://zenodo.org/badge/latestdoi/330023784)
+
+Last updated: Jun 24, 2021
 
 Code and data for: 
 
@@ -43,9 +45,13 @@ SHARING INFORMATION
 
 All rights reserved
 
-Publications using these scripts and data:  (submitted)
+Publications using these scripts and data:  
+
+Feldblum, J. T., Krupenye, C., Bray, J., Pusey, A. E., Gilby, I. C. (in press) Social bonds provide multiple pathways to reproductive success in wild male chimpanzees. _iScience_
 
 Recommended citation for this dataset: 
+
+Feldblum, J. T., Krupenye, C., Bray, J., Pusey, A. E., Gilby, I. C. (2021). Data and code for: Social bonds provide multiple pathways to reproductive success in wild male chimpanzees. http://doi.org/10.5281/zenodo.5027329
 
 <hr/> 
 
